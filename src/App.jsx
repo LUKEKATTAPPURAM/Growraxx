@@ -71,7 +71,7 @@ function Home() {
       <div className="relative z-10">
         {/* Header Section */}
         <section
-          className="flex flex-col items-center justify-start min-h-screen text-center pt-10"
+          className="flex flex-col items-center justify-start  text-center pt-10"
           onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })}
         >
           <motion.img
@@ -82,7 +82,7 @@ function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 2.2, ease: "easeOut" }}
           />
-          <h1 className="text-5xl font-orbitron mb-6">SYNAPSZ-2025 </h1>
+          <h1 className="text-5xl font-orbitron mb-7">SYNAPSZ 2025 </h1>
           <div className="w-full max-w-8xl aspect-[3.5/1] rounded-2xl shadow-2xl overflow-hidden">
             <motion.video
               className="w-full h-full object-cover"
@@ -101,7 +101,7 @@ function Home() {
 
         {/* Project Intro */}
         <section className="flex flex-col items-center py-2">
-          <h2 className="text-5xl font-montserrat mb-2">GROWRAXX</h2>
+          <h2 className="text-5xl font-montserrat mt-20">GROWRAXX</h2>
           <h3 className="text-3xl font-montserrat mb-2">By</h3>
           <h2 className="text-3xl font-montserrat mb-2">THΞ GRΞΞN 𝘗𝘙𝘖𝘛𝘖𝘊𝘖𝘓</h2>
           <p className="text-lg italic font-poppins">“Happy Plants Happy Life.”</p>
