@@ -529,7 +529,7 @@ function Team() {
   }, []);
   const members = [
     { name: "Siddharth Sunil", img: "/photos/sidd.jpg" },
-    { name: "Vishak", img: "/photos/vishak.jpg"},
+    { name: "Vishak", img: "/photos/visahk.jpg"},
     { name: "Luke", img: "/photos/luke.jpg" },
   ];
 
