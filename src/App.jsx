@@ -82,7 +82,7 @@ function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 2.2, ease: "easeOut" }}
           />
-          <h1 className="text-5xl font-orbitron mb-6">SYNAPSE-2025 </h1>
+          <h1 className="text-5xl font-orbitron mb-6">SYNAPSZ-2025 </h1>
           <div className="w-full max-w-8xl aspect-[3.5/1] rounded-2xl shadow-2xl overflow-hidden">
             <motion.video
               className="w-full h-full object-cover"
